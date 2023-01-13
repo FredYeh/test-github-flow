@@ -17,6 +17,10 @@ class cat(animal):
         super().__init__(age, name)
         self.sound = 'meow'
 
+def monkey(animal):
+    def __init__(self, age: int, name: str):
+        super().__init__(age, name)
+        self.sound = 'wookey'
 
 if __name__ == '__main__':
     andy = dog(4, 'andy')
